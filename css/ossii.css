@@ -16,7 +16,6 @@ body{
     border-radius: 4px;
     filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-    background-color:  #FAFAFA; 
     margin-top:15px;
 }
 
@@ -26,10 +25,6 @@ body{
     margin:0;
 }
 
-#footer-email{
-    text-align:center;
-    color:black;
-}
 
 .alert {
     margin-bottom: 0px;
@@ -68,6 +63,11 @@ li{
     height:300px;
 }
 
+/*
+#map_canvas img {
+  max-width: none;
+}
+*/
 textarea{
     height:200px;
 }
@@ -89,18 +89,21 @@ h4{
 }
 
 #ossiilogo{
-    margin:0px 0px 0px 0px;
-    padding:0px 0px 0px 0px;
+    margin:0px;
+    padding:0px;
 }
 
 .font-center{
     text-align:center;
 }
-
+/*
+important
+*/
 
 .span12 > img{
-    text-align:center;
-}
+    margin:auto;
+     width:100%;
+    }
 #test1{
 margin-bottom:0;
 }
@@ -159,7 +162,7 @@ i{
     border:solid 1px #e5e5e5;
 }
 
-#menu_company_name,menu_company_name{
+.menu_company_name{
     font-size:25px;
 }
 
@@ -200,6 +203,14 @@ dt{
     text-decoration: none;
     color: #333333;
 }
-#Top20{
+.Top20{  /*9-04將id更改為class*/
      margin-top: 20px;
+}
+.hover{                 /*9-04新增*/
+    cursor :pointer;
+    background-color:#222222;
+    color:#FFFFFF;
+    font-style:bold;
+    font-size:110%;
+    border-radius: 15px;
 }
