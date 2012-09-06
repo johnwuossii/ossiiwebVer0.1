@@ -207,10 +207,11 @@ dt{
      margin-top: 20px;
 }
 .hover{                 /*9-04新增*/
-    cursor :pointer;
+    cursor :crosshair;
     background-color:#222222;
     color:#FFFFFF;
     font-style:bold;
     font-size:110%;
     border-radius: 15px;
+    padding: 5px 10px;
 }
