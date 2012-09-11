@@ -160,6 +160,7 @@ i{
 
 .workborder{
     border:solid 1px #e5e5e5;
+    margin-top: 30px;
 }
 
 .menu_company_name{
@@ -211,7 +212,10 @@ dt{
     background-color:#222222;
     color:#FFFFFF;
     font-style:bold;
-    font-size:110%;
+    /*font-size:110%;拿掉*/
     border-radius: 15px;
     padding: 5px 10px;
+}
+.padTop{ /*9-10新增*/
+padding-top:65px;
 }

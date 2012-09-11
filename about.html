@@ -6,13 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <link rel="shortcut icon" href="img/favicon.png">
-    <link href="css/bootstrap.css"rel="stylesheet"type="text/css">
-    
+    <link href="css/bootstrap.css"rel="stylesheet"type="text/css">    
     <link href="css/bootstrap-responsive.css"rel="stylesheet"type="text/css">
     <link href="css/docs.css"rel="stylesheet"type="text/css">
     <link href="css/ossii.css"rel="stylesheet"type="text/css">
-    
-    <link href="leotest.css"rel="stylesheet"type="text/css">
+    <link href="css/do.css"rel="stylesheet"type="text/css">
     <script src="js/jquery-1.7.2.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/ossii-jq.js"></script>
@@ -46,19 +44,19 @@
     </div>
     <div class="container">
         <div class="row" id="rowtop">
-            <div class="span3 bs-docs-sidebar">
-                <ul class="nav nav-list bs-docs-sidenav affix">
-                    <li class="active"><a href="#item1">關於晟鑫</a></li>
-                    <li><a href="#item2">大事記</a></li>
-                    <li><a href="#item3">出版物</a></li>
+            <div class="subnav span12">
+                <ul class="nav nav-pills">
+                    <li class="active"><a href="#AboutOSSII">關於晟鑫</a></li>
+                    <li><a href="#Memorabilia">大事記</a></li>
+                    <li><a href="#Publications">出版物</a></li>
                 </ul>
             </div>
-            <div class="span9">
-                <div id="item1">
+            <div class="span12">
+                <section id="AboutOSSII">
                     <div class="row">
-                        <div class="span6" >
+                        <div class="span8" >
                             <hr>
-                            <div class="description">
+                            <div> <!--class="description" 0910拿掉-->
                                 <h3>關於晟鑫科技</h3>
                                 <hr>
                                 <p>出自對開放原始碼的熱愛與信心，晟鑫科技創業團隊以過去多年在開放原始碼領域所累積的經驗及前瞻性眼光，
@@ -69,7 +67,7 @@
                                 【人才培訓】等基於開放原始碼架構之專業級服務。</p>
                             </div>
                             <hr>
-                            <div class="description">
+                            <div> <!--class="description" 0910拿掉-->
                                 <h3>誠心服務，誠信為本，客戶為尊，團隊精神</h3>
                                 <hr>
                                 <p>相較於單一系統平臺下的解決方案，晟鑫科技致力於提供客戶更貼近企業需求的多元化選擇與服務，
@@ -78,7 +76,7 @@
                                 安全與高品質的資訊系統環境，再進而提昇客戶整體行政效率、業務競爭優勢及創造最高利潤。</p>
                             </div>
                         </div>
-                        <div class="span3">
+                        <div class="span4">
                             <div class="about1"> 
                                 <img class="pull-left img-rounded" src="img/1.png"/> <!-- 8-31改過 img-circle改成img-rounded-->
                             </div>
@@ -86,11 +84,11 @@
                                 <img class="pull-left img-rounded" src="img/2.png"/> <!-- 8-31改過 img-circle改成img-rounded-->
                             </div>
                         </div>
-                    </div>
+                    </section>
                 <div class="box">
-                    <div id="item2">
+                    <section id="Memorabilia">
                         <div class="row">
-                            <div class="span9">
+                            <div class="span12">
                                 <div class="rowtop">
                                     <hr>
                                     <h3>大事記</h3>
@@ -129,22 +127,22 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
                 </div>
                 <div class="box">
-                    <div id="item3">
+                    <section id="Publications">
                         <div class="row">
-                           <div class=span9>
+                           <div class=span12>
                                 <div class="rowtop">
                                     <div class=row>
-                                        <div class="span9">
+                                        <div class="span12">
                                             <h3>出版物</h3>
                                             <hr>
                                             <div class="row">
-                                                <div class="span2 right-border">
+                                                <div class="span3 right-border">
                                                     <img class="pull-left img-polaroid" src="img/book1.gif">
                                                 </div>
-                                                <div class="span6">
+                                                <div class="span8">
                                                     <h3>OSS中小企業應用寶典-e化基礎篇</h3>  
                                                         <ul class="unstyled">
                                                             <h4>出版社:松崗圖書</h4>
@@ -159,12 +157,12 @@
                                             </div>
                                         </div>
                                     <div class=row>
-                                        <div class="span9">
+                                        <div class="span12">
                                             <div class="row">
-                                                <div class="span2 right-border">
+                                                <div class="span3 right-border">
                                                     <img class="pull-left img-polaroid" src="img/book2.gif">
                                                 </div>
-                                                <div class="span6">
+                                                <div class="span8">
                                                     <h3>OpenDesktop 用Linux開啟桌面新生活</h3>
                                                     <ul class="unstyled">
                                                         <h4>出版社:學貫行銷股份有限公司</h4>
@@ -179,12 +177,12 @@
                                         </div>
                                     </div>
                                         <div class=row>
-                                            <div class="span9">
+                                            <div class="span12">
                                                 <div class="row">
-                                                    <div class="span2 right-border">
+                                                    <div class="span3 right-border">
                                                         <img class="pull-left img-polaroid" src="img/book3.gif">
                                                     </div>
-                                                    <div class="span6">
+                                                    <div class="span8">
                                                         <h3>OpenOffice.org 成功導入寶典</h3>
                                                         <ul class="unstyled"> 
                                                             <h4>出版社:學貫行銷股份有限公司</h4>
@@ -199,7 +197,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
                 </div>
             </div>
         </div>
