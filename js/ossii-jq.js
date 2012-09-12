@@ -1,5 +1,6 @@
 (function($){
     $(document).ready(function(){
+        $.growlUI('歡迎蒞臨晟鑫', '祝你有個美好一天'); 
         //~ $('a.tabs').click(function(event){
             //~ var url=$(this).attr('href');
             //~ $('.content').load(url);

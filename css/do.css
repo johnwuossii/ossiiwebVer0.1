@@ -64,6 +64,7 @@
 /* Fixed subnav on scroll, but only for 980px and up (sorry IE!) */
 @media (min-width: 980px) {
   .subnav-fixed {
+    margin-left: 0;
     position: fixed;
     top: 40px;
     left: 0;
